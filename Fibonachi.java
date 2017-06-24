@@ -3,10 +3,12 @@ import java.util.Scanner;
 public class Fibonachi {
   public static void main (String[] args) {
     int num = 0; 
-	int a = 1; int b = 1; int c = 1;
+	int a = 1;
+        int b = 1; 
+        int c = 1;
 	boolean q = false;
 	Scanner in = new Scanner(System.in);
-	System.out.println("Enter some number ");
+	System.out.println("Enter some number:");
 	String input = in.nextLine();	
 	try {
         num = Integer.parseInt(input);
